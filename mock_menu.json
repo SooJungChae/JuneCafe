@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Americano",
+    "type": "coffee",
+    "price": 3000
+  },
+  {
+    "id": 2,
+    "name": "Latte",
+    "type": "coffee",
+    "price": 3500
+  },
+  {
+    "id": 3,
+    "name": "Cytron tea",
+    "type": "tea",
+    "price": 2500
+  },
+  {
+    "id": 4,
+    "name": "Green tea",
+    "type": "tea",
+    "price": 2500
+  },
+  {
+    "id": 5,
+    "name": "Ice choco blended",
+    "type": "frappucino",
+    "price": 2500
+  }
+]
