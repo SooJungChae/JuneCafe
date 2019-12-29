@@ -1,0 +1,29 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+a {
+    color: #0093ED;
+}
+.navbar {
+    padding: 2.125rem 1.5rem 2.125rem 2rem;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem;
+}
+.container {
+    padding-top: 43px;
+}
+.detail-group {
+    padding: 1rem 0 0.8rem 0;
+}
+.btn-edit {
+    color: #fff;
+    background-color: #0093ED;
+}
