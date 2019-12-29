@@ -2,9 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>영준이 가게</title>
+	<!-- bootstrap table -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css">
+	<link href="style.css" rel="stylesheet" />
 </head>
 <body>
-	<h2>영주니 커피 메뉴판</h2>
+<div>
+	<nav class="navbar">
+		<h1>로고</h1>
+		<ul>
+			<li><a href="#">메뉴1</a></li>
+			<li><a href="#">메뉴2</a></li>
+			<li><a href="#">메뉴3</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<h3>영주니 커피 메뉴판</h3>
+		<!-- bootstrap table reference : https://getbootstrap.com/docs/4.4/content/tables/ -->
+		<table
+			id="table"
+			data-pagination="true"
+			class="table-striped table-hover"
+		>
+			<thead class="thead-dark">
+			<tr>
+				<!-- bootstrapTable reference : https://examples.bootstrap-table.com/ -->
+				<th data-field="name" data-halign="center" data-formatter="linkFormatter">제품명</th>
+				<th data-field="type" data-halign="center">제품타입</th>
+				<th data-field="price" data-halign="center" data-align="right">가격</th>
+			</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<!-- bootstrap table -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.js"></script>
+	<!-- main page script -->
+	<script src="scripts/main.js"></script>
 </body>
 </html>
