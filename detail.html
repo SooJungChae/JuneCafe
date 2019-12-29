@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>메뉴 상세</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- summernote -->
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div>
+	<nav class="navbar">
+		<h1>로고</h1>
+		<ul>
+			<li><a href="#">메뉴1</a></li>
+			<li><a href="#">메뉴2</a></li>
+			<li><a href="#">메뉴3</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		<h3>메뉴 상세</h3>
+		<div class="detail-group">
+			<span>제품명</span>
+			<input type="text" title="name" value="test" class="form-control" />
+		</div>
+		<div class="detail-group">
+			<span>제품타입</span>
+			<input type="text" title="type" value="2" class="form-control" />
+		</div>
+		<div class="detail-group">
+			<span>가격</span>
+			<input type="text" title="price" value="3" class="form-control" />
+		</div>
+	</div>
+	<div class="container">
+		<h3>여긴 메모장</h3>
+		<div id="summernote" class="form-control">Hello Summernote</div>
+	</div>
+	<div class="container pt-4 pb-3 text-right">
+		<a class="btn btn-edit" href="index.html">목록으로</a>
+		<button class="btn btn-edit" onclick="editCoffeeMenu()">수정하기</button>
+	</div>
+	</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<!-- summernote -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote.js"></script>
+<!-- detail page script -->
+<script src="scripts/detail.js"></script>
+</body>
+</html>
